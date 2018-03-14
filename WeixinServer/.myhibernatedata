@@ -1,0 +1,17 @@
+#MyEclipse Hibernate Properties
+#Fri Mar 24 21:26:55 GMT+08:00 2017
+genVersionTag=false
+sessionFactoryName=duanqing.test.servlet.tools.HibernateSessionFactory
+genAnnotations=false
+configFile=/WeixinServer/src/hibernate.cfg.xml
+reStrategyClass=
+sessionFactoryId=
+profile=
+detectM2M=false
+genBasicCompId=false
+keyGenerator=
+createConfigFile=true
+basePersistenceClass=
+detectO2O=false
+useJavaTypes=true
+reSettingsFile=
