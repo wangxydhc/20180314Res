@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+   <package name="front"  namespace="" extends="struts-default" >    
+       <action name="ShowWords" class="action.ShowWords" method="start">
+       		<result name="SUCCESS">/reciting.jsp</result>
+       	</action>
+       <action name="ConfirmWord" class="action.ConfirmWord" method="excute">
+       		<result name="SUCCESS">/show.jsp</result>       		
+       	</action>
+  	  <action name="DisLog" class="action.DisLog" method="open">
+       		<result name="SUCCESS">/show.jsp</result>       		
+       	</action>
+       	 <action name="AddWordAndLog" class="action.AddWordAndLog" method="excute">
+       		<result name="SUCCESS">/show.jsp</result>       		
+       	</action>
+       		 <action name="GenerateDic" class="action.GenerateDic" method="generate">
+       		<result name="SUCCESS">/index.jsp</result>       		
+       	</action>
+       	 <action name="GetWeb" class="action.GetWeb" method="get">
+       		<result name="SUCCESS">/index.jsp</result>       		
+       	</action>
+   </package>     
+   <constant name="struts.devMode" value="true"  />
+</struts>    
